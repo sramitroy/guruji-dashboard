@@ -1,4 +1,7 @@
 # subadmin theme dashboard
 
+[![Issues](https://img.shields.io/github/issues/sramitroy/guruji-dashboard.svg?style=flat-square)](https://github.com/sramitroy/guruji-dashboard/issues)
+[![Stars](	https://img.shields.io/github/issues/sramitroy/guruji-dashboard.svg?style=flat-square)](https://github.com/sramitroy/guruji-dashboard/stargazers)
 
-## this will create an admin dashboard
+## it will give you the basic sub admin them dashboard 
+
