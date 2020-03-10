@@ -15,5 +15,12 @@
         "psr-4": {
             "Guruji\\Dashboard\\": "src/"
         }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Guruji\\Dashboard\\DashboardServiceProvider"
+        ]
     }
+  }
 }
