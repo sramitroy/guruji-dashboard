@@ -1,0 +1,19 @@
+{
+    "name": "guruji/dashboard",
+    "description": "subadmin 2 bootstarp theme https://startbootstrap.com/themes/sb-admin-2/",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amit Roy",
+            "email": "uamitroy@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Guruji\\Dashboard\\": "src/"
+        }
+    }
+}
