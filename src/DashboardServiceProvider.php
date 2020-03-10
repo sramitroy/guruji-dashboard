@@ -17,6 +17,7 @@ class DashboardServiceProvider extends ServiceProvider
         __DIR__.'/public/' => public_path(''),
         __DIR__.'/Http/Controllers' => app_path('Http/Controllers'),
         __DIR__.'/Helpers' => app_path('Helpers'),
+        __DIR__.'/Providers' => app_path('Providers'),
         __DIR__.'/Models' => app_path(''),
         __DIR__.'/database/migrations' => base_path('database/migrations'),
         __DIR__.'/database/seeds' => base_path('database/seeds'),

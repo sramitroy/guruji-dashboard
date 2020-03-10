@@ -57,7 +57,7 @@ class LoginController extends Controller
     protected function authenticated(Request $request, $user)
     {
         $userGuards = $user->roles->pluck('guard_name')->toArray();
-        if ($user->is_active != 1 || !in_array('web_admin', $userGuards)) {
+        if (!in_array('web_admin', $userGuards)) {
             $this->logout($request);
             return redirect()->route('admin.login')
                     ->withInput($request->only($this->username(), 'remember'))
@@ -80,7 +80,7 @@ class LoginController extends Controller
 
         // Check if user was successfully loaded, that the password matches
         // and active is not 1. If so, override the default error message.
-        if ($user && \Hash::check($request->password, $user->password) && $user->is_active != 1) {
+        if ($user && \Hash::check($request->password, $user->password)) {
             $errors = [$this->username() => trans('auth.noactive')];
         }
 
