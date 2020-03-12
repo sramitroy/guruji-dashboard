@@ -151,5 +151,5 @@ Step:9, And, here we go!
          password: password 
 
 
-## it will give you the basic sub admin them dashboard 
+## Thank You! Build Splendid Stuffs!
 
