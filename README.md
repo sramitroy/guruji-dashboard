@@ -34,11 +34,12 @@ Step:1, Run the following commands
     composer require laravelcollective/html
 
     php artisan vendor:publish --provider="Guruji\Dashboard\DashboardServiceProvider"
+    php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
 
 if you also want to changes then you can fire bellow command and get config file in config/permission.php.
 
     php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="config"
-    php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider" --tag="migrations"
+    
 
 
 
